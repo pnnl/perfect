@@ -38,6 +38,13 @@ PERFECT program.
   - Antonino Tumeo (PNNL)
 
 
+* Reference:
+
+  - Kevin Barker, Thomas Benson, Dan Campbell, David Ediger, Roberto Gioiosa, Adolfy Hoisie, Darren Kerbyson, Joseph Manzano, Andres Marquez, Leon Song, Nathan R. Tallent, and Antonino Tumeo.  PERFECT (Power Efficiency Revolution For Embedded Computing Technologies) Benchmark Suite Manual. Pacific Northwest National Laboratory and Georgia Tech Research Institute, December 2013.
+  - doc/PERFECT-Suite-manual.pdf
+  - https://gitlab.pnnl.gov/perf-lab-hub/perfect/perfect-suite/-/blob/master/doc/PERFECT-Suite-manual.pdf
+
+
 Description:
 =============================================================================
 
