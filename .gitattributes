@@ -5,3 +5,4 @@ Make* ident
 *.c   ident
 *.h   ident
 *.cu  ident
+*.m   ident
