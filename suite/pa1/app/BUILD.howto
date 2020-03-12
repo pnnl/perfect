@@ -1,0 +1,69 @@
+// UNCLASSIFIED //
+
+This directory contains a linux-compatible version of the VisionChip
+benchmark code. This code was tested on the following OS/archs:
+	Ubuntu 10.04LTS/PowerPC
+	CentOs 5.0/x86
+
+This code has NOT been optimized for speed, throughput,
+power, or anything else. The intent was clarity. Optimization
+was left to the VisionChip performers for their specific
+device architecture. This code has been repurposed and 
+modified for this effort.
+
+From the command prompt, enter:
+
+% make
+
+to build the code. Requires a recent gcc (4.4.3 used here).
+
+To run, something like the following should work:
+
+% ./benchmark lena_vga1.raw lena_vga2.raw 480 640 2 1
+
+This will result in a number of output files created.
+
+The output files are named something like this:
+
+benchmark_[A|B]xxxR_yyyC_zzzBpp_FrameN.raw, where:
+
+benchmark is the name of the specific func
+- dwtFused, dwtFwd_A, dwtFwd_B, histEq, nf, etc
+
+xxx is replaced by the number of rows in the image
+yyy is replaced by the number of cols in the image
+zzz is the number of BYTES per pixel in the OUTPUT image
+N is the frame number (starting with 1).
+
+For the non-fused benchmarks, an 'A' or 'B' indicates
+which stream (first/A or second/B on the command line) was
+used.
+
+For example, the following would be output file names:
+
+ensemble1_480R_640C_4Bpp_Frame1.raw
+dwtFused_480R_640C_4Bpp_Frame1.raw
+histEq_A_480R_640C_4Bpp_Frame1.raw
+histEq_B_480R_640C_4Bpp_Frame2.raw
+
+and so on.
+
+This naming convention was done to make it easier to glean the
+image format from the file name when using something like ImageJ
+to view the output.
+
+When reading the output imagery into ImageJ to view the results,
+specify 32-bit unsigned pixels. Also, if the imagery appears
+inverted from an intensity standpoint, try changing the
+endianess when importing the imagery into ImageJ.
+
+The test imagery provided, lena1_vga.raw and len2_vga.raw, 
+are actually the same frame. The benchmarks, in large part,
+do not care about the image content. We can essentially
+treat these two files as if they came from different sensors
+for the fusion-related portions of this code suite.
+
+Author: John Hodapp/NVESD
+john.hodapp@us.army.mil
+
+// UNCLASSIFIED //

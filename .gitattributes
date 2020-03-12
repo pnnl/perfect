@@ -1,0 +1,7 @@
+*.txt ident
+*.md  ident
+*.tex ident
+Make* ident
+*.c   ident
+*.h   ident
+*.cu  ident
