@@ -18,8 +18,8 @@ PERFECT program.
 
 
 * Contacting: _firstname_._lastname_@pnnl.gov
-  - Nathan Tallent (PNNL)
   - Joseph Manzano (PNNL)
+  - Nathan Tallent (PNNL)
 
 
 * Contributors (alphabetical):
