@@ -6,11 +6,17 @@ $Id$
 PERFECT Suite
 =============================================================================
 
-The PERFECT Suite is a collection of kernels representing certain
-domains of interest in radar and image processing.  The Suite has been
-jointly developed by Pacific Northwest National Laboratory (PNNL) and
-Georgia Tech Research Institute (GTRI) with support from the DARPA
-PERFECT program.
+The PERFECT Suite is comprised of kernels and applications
+representing domains of interest in radar and image processing. The
+suite was formed through a survey of applications used by all teams as
+well as consultations with numerous application domain experts. Each
+kernel in its own right is computationally important and provides
+reasonable coverage of a domain of interest. Furthermore, each kernel
+is algorithmically interesting.
+
+The Suite has been jointly developed by Pacific Northwest National
+Laboratory (PNNL) and Georgia Tech Research Institute (GTRI) with
+support from the DARPA PERFECT program.
 
 * For more information on the PERFECT Suite:
   - https://hpc.pnnl.gov/PERFECT/
@@ -38,9 +44,11 @@ PERFECT program.
   - Antonino Tumeo (PNNL)
 
 
-* Reference:
+* Citation:
+  - Kevin Barker, Thomas Benson, Dan Campbell, David Ediger, Roberto Gioiosa, Adolfy Hoisie, Darren Kerbyson, Joseph Manzano, Andres Marquez, Leon Song, Nathan R. Tallent, and Antonino Tumeo.  PERFECT (Power Efficiency Revolution For Embedded Computing Technologies) Benchmark Suite Manual. Pacific Northwest National Laboratory and Georgia Tech Research Institute, December 2013. https://hpc.pnnl.gov/PERFECT/
 
-  - Kevin Barker, Thomas Benson, Dan Campbell, David Ediger, Roberto Gioiosa, Adolfy Hoisie, Darren Kerbyson, Joseph Manzano, Andres Marquez, Leon Song, Nathan R. Tallent, and Antonino Tumeo.  PERFECT (Power Efficiency Revolution For Embedded Computing Technologies) Benchmark Suite Manual. Pacific Northwest National Laboratory and Georgia Tech Research Institute, December 2013.
+
+* Manual:
   - doc/PERFECT-Suite-manual.pdf
   - https://gitlab.pnnl.gov/perf-lab-hub/perfect/perfect-suite/-/blob/master/doc/PERFECT-Suite-manual.pdf
 
@@ -48,13 +56,32 @@ PERFECT program.
 Description:
 =============================================================================
 
-This release contains the following directories:
-- doc/            : PERFECT Suite manual
-- suite/pa1       : "PERFECT Application 1" application and kernels
-- suite/stap/     : "Space-Time Adaptive Processing" application and kernels
-- suite/sar/      : "Synthetic Aperture Radar" kernels
-- suite/wami/     : "Wide Area Motion Imaging" application and kernels
-- suite/required/ : Required kernels
+The PERFECT Suite contains:
+
+- `suite/pa1` : "PERFECT Application 1"
+  - Discrete Wavelet Transform
+  - 2D Convolution
+  - Histogram Equalization
+
+- `suite/stap`  : Space-Time Adaptive Processing
+  - System Solver
+  - Inner Product
+  - Outer Product
+
+- `suite/sar` : Synthetic Aperture Radar
+  - Interpolation 1
+  - Interpolation 2
+  - Back Projection (Non-Fourier SAR)
+
+- `suite/wami` : Wide Area Motion Imaging
+  - Debayer
+  - Image Registration
+  - Change Detection
+
+- `suite/required` : Required (common) kernels
+  - Sort
+  - FFT 1D
+  - FFT 2D
 
 
 Using:
