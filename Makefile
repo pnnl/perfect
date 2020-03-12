@@ -94,5 +94,6 @@ dist :
     --exclude=".git" \
     --exclude=".svn" \
 	  --exclude="suite/sar/tools" \
+	  --exclude="suite/wami/tools" \
 	  --exclude="doc/src" \
 	  $${nm_new}
