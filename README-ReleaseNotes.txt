@@ -11,6 +11,29 @@ Revision History
 ------------------------------------------------------------
 
 ----------------------------------------
+Version 0.2.0, 2014.05.30
+----------------------------------------
+
+- Release serial applications and specifications for PA1 (Perfect
+  Application 1), STAP (Space-Time Adaptive Processing), and WAMI
+  (Wide Area Motion Imaging).  (We do not expect to release an
+  application for SAR.)
+
+- Release parallel (OpenMP) versions of all kernels.
+
+----------------------------------------
+Version 0.1.1, 2014.04.01
+----------------------------------------
+
+- Public release
+
+----------------------------------------
+Version 0.1.0 (Pre-release), 2013.11.08
+----------------------------------------
+
+- Release Stage 4 kernels and specification: Wide Area Motion Imaging (WAMI)
+
+----------------------------------------
 Version 0.0.5 (Pre-release), 2013.09.30
 ----------------------------------------
 
