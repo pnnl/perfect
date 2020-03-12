@@ -42,14 +42,12 @@ Description:
 =============================================================================
 
 This release contains the following directories:
-
-  doc/            : PERFECT Suite manual
-  suite/pa1       : "PERFECT Application 1" application and kernels
-  suite/stap/     : "Space-Time Adaptive Processing" application and kernels
-  suite/sar/      : "Synthetic Aperture Radar" kernels
-  suite/wami/     : "Wide Area Motion Imaging" application and kernels
-  suite/required/ : Required kernels
-
+- doc/            : PERFECT Suite manual
+- suite/pa1       : "PERFECT Application 1" application and kernels
+- suite/stap/     : "Space-Time Adaptive Processing" application and kernels
+- suite/sar/      : "Synthetic Aperture Radar" kernels
+- suite/wami/     : "Wide Area Motion Imaging" application and kernels
+- suite/required/ : Required kernels
 
 
 Using:
