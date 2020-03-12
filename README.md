@@ -16,9 +16,11 @@ PERFECT program.
   - https://hpc.pnnl.gov/PERFECT/
   - https://gitlab.pnnl.gov/perf-lab-hub/perfect
 
+
 * Contacting: _firstname_._lastname_@pnnl.gov
   - Nathan Tallent (PNNL)
   - Joseph Manzano (PNNL)
+
 
 * Contributors (alphabetical):
   - Kevin Barker (PNNL)
@@ -35,16 +37,18 @@ PERFECT program.
   - Nathan Tallent (PNNL)
   - Antonino Tumeo (PNNL)
 
+
 Description:
 =============================================================================
 
 This release contains the following directories:
-  doc/           : PERFECT Suite manual
-  suite/pa1      : "PERFECT Application 1" application and kernels
-  suite/stap/    : "Space-Time Adaptive Processing" application and kernels
-  suite/sar/     : "Synthetic Aperture Radar" kernels
-  suite/wami/    : "Wide Area Motion Imaging" application and kernels
-  suite/required/: Required kernels
+
+  doc/            : PERFECT Suite manual
+  suite/pa1       : "PERFECT Application 1" application and kernels
+  suite/stap/     : "Space-Time Adaptive Processing" application and kernels
+  suite/sar/      : "Synthetic Aperture Radar" kernels
+  suite/wami/     : "Wide Area Motion Imaging" application and kernels
+  suite/required/ : Required kernels
 
 
 
