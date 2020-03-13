@@ -56,24 +56,26 @@ support from the DARPA PERFECT program.
 Description:
 =============================================================================
 
-The PERFECT Suite contains:
+The PERFECT Suite contains the following kernels and applications.
+There are serial C and OpenMP versions for all; in select cases there
+are CUDA variants.
 
-- `suite/pa1` : "PERFECT Application 1"
+- `suite/pa1` : "PERFECT Application 1" kernels and application.
   - Discrete Wavelet Transform
   - 2D Convolution
   - Histogram Equalization
 
-- `suite/stap`  : Space-Time Adaptive Processing
+- `suite/stap`  : "Space-Time Adaptive Processing" kernels and application.
   - System Solver
   - Inner Product
   - Outer Product
 
-- `suite/sar` : Synthetic Aperture Radar
+- `suite/sar` : "Synthetic Aperture Radar" kernels.
   - Interpolation 1
   - Interpolation 2
   - Back Projection (Non-Fourier SAR)
 
-- `suite/wami` : Wide Area Motion Imaging
+- `suite/wami` : "Wide Area Motion Imaging" kernels and application.
   - Debayer
   - Image Registration
   - Change Detection

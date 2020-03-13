@@ -11,6 +11,20 @@ Revision History
 ------------------------------------------------------------
 
 ----------------------------------------
+Version 1.0.1, 2020.03.13
+----------------------------------------
+
+- Merge accidentally forked updates (c. 2014.05) into release.
+  (root files, doc/, suite/sar/tools).
+- Move to public Gitlab for hosting (from internal SVN)
+
+----------------------------------------
+Version 1.0.0, 2015.02.05
+----------------------------------------
+
+- Release all applications and kernels for serial C, OpenMP, and CUDA.
+
+----------------------------------------
 Version 0.2.0, 2014.05.30
 ----------------------------------------
 
@@ -31,7 +45,8 @@ Version 0.1.1, 2014.04.01
 Version 0.1.0 (Pre-release), 2013.11.08
 ----------------------------------------
 
-- Release Stage 4 kernels and specification: Wide Area Motion Imaging (WAMI)
+- Release Stage 4 kernels and specification: Wide Area Motion Imaging
+  (WAMI)
 
 ----------------------------------------
 Version 0.0.5 (Pre-release), 2013.09.30
