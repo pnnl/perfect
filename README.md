@@ -1,10 +1,14 @@
 -*-Mode: markdown;-*-
-
-$HeadURL$
 $Id$
+
 
 PERFECT Suite
 =============================================================================
+
+* URLs:
+  - https://hpc.pnnl.gov/PERFECT/
+  - https://gitlab.pnnl.gov/perf-lab-hub/perfect
+
 
 The PERFECT Suite is comprised of kernels and applications
 representing domains of interest in radar and image processing. The
@@ -18,14 +22,10 @@ The Suite has been jointly developed by Pacific Northwest National
 Laboratory (PNNL) and Georgia Tech Research Institute (GTRI) with
 support from the DARPA PERFECT program.
 
-* For more information on the PERFECT Suite:
-  - https://hpc.pnnl.gov/PERFECT/
-  - https://gitlab.pnnl.gov/perf-lab-hub/perfect
 
-
-* Contacting: _firstname_._lastname_@pnnl.gov
-  - Joseph Manzano (PNNL)
-  - Nathan Tallent (PNNL)
+* Contacts: _firstname_._lastname_@pnnl.gov
+  - Joseph Manzano
+  - Nathan R. Tallent
 
 
 * Contributors (alphabetical):
@@ -44,6 +44,9 @@ support from the DARPA PERFECT program.
   - Antonino Tumeo (PNNL)
 
 
+References
+-----------------------------------------------------------------------------
+
 * Citation:
   - Kevin Barker, Thomas Benson, Dan Campbell, David Ediger, Roberto Gioiosa, Adolfy Hoisie, Darren Kerbyson, Joseph Manzano, Andres Marquez, Leon Song, Nathan R. Tallent, and Antonino Tumeo.  "PERFECT (Power Efficiency Revolution For Embedded Computing Technologies) Benchmark Suite Manual." Pacific Northwest National Laboratory and Georgia Tech Research Institute, December 2013. https://hpc.pnnl.gov/PERFECT/
 
@@ -53,7 +56,7 @@ support from the DARPA PERFECT program.
   - https://gitlab.pnnl.gov/perf-lab-hub/perfect/perfect-suite/-/blob/master/doc/PERFECT-Suite-manual.pdf
 
 
-Description:
+Contents
 =============================================================================
 
 The PERFECT Suite contains the following kernels and applications.
@@ -86,7 +89,7 @@ are CUDA variants.
   - FFT 2D
 
 
-Using:
+Using
 =============================================================================
 
 The make system is based on GNU make.  Type "make help" to see a list of
@@ -113,5 +116,4 @@ To manually select input sizes, override `INPUT_SIZE` with the values
   ```sh
   make INPUT_SIZE=SMALL check
   ```
-
 
