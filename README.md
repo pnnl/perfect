@@ -24,6 +24,10 @@ Laboratory (PNNL) and Georgia Tech Research Institute (GTRI) with
 support from the DARPA PERFECT program.
 
 
+**Citation**:
+  > Kevin Barker, Thomas Benson, Dan Campbell, David Ediger, Roberto Gioiosa, Adolfy Hoisie, Darren Kerbyson, Joseph Manzano, Andres Marquez, Leon Song, Nathan R. Tallent, and Antonino Tumeo.  "PERFECT (Power Efficiency Revolution For Embedded Computing Technologies) Benchmark Suite Manual." Pacific Northwest National Laboratory and Georgia Tech Research Institute, December 2013. https://hpc.pnnl.gov/PERFECT/
+
+
 **Contacts**: (_firstname_._lastname_@pnnl.gov)
   - Joseph Manzano
   - Nathan R. Tallent
@@ -45,24 +49,17 @@ support from the DARPA PERFECT program.
   - Antonino Tumeo (PNNL)
 
 
-References
+
+Details
 =============================================================================
 
-**Contributors**:
-  > Kevin Barker, Thomas Benson, Dan Campbell, David Ediger, Roberto Gioiosa, Adolfy Hoisie, Darren Kerbyson, Joseph Manzano, Andres Marquez, Leon Song, Nathan R. Tallent, and Antonino Tumeo.  "PERFECT (Power Efficiency Revolution For Embedded Computing Technologies) Benchmark Suite Manual." Pacific Northwest National Laboratory and Georgia Tech Research Institute, December 2013. https://hpc.pnnl.gov/PERFECT/
+**Manual**
+  - doc/PERFECT-Suite-manual.pdf (https://gitlab.pnnl.gov/perf-lab-hub/perfect/perfect-suite/-/blob/master/doc/PERFECT-Suite-manual.pdf)
 
 
-**Manual**:
-  - doc/PERFECT-Suite-manual.pdf
-  - https://gitlab.pnnl.gov/perf-lab-hub/perfect/perfect-suite/-/blob/master/doc/PERFECT-Suite-manual.pdf
-
-
-Contents
-=============================================================================
-
-The PERFECT Suite contains the following kernels and applications.
-There are serial C and OpenMP versions for all; in select cases there
-are CUDA variants.
+**Contents**: The PERFECT Suite contains the following kernels and
+applications.  There are serial C and OpenMP versions for all; in
+select cases there are CUDA variants.
 
 - `suite/pa1` : "PERFECT Application 1" kernels and application.
   - Discrete Wavelet Transform
