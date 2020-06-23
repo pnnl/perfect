@@ -53,8 +53,9 @@ support from the DARPA PERFECT program.
 Details
 =============================================================================
 
-**Manual**
+**Manual**:
   - doc/PERFECT-Suite-manual.pdf (https://gitlab.pnnl.gov/perf-lab-hub/perfect/perfect-suite/-/blob/master/doc/PERFECT-Suite-manual.pdf)
+  - See above for citation.
 
 
 **Contents**: The PERFECT Suite contains the following kernels and
