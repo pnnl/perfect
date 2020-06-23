@@ -5,12 +5,12 @@ $Id$
 PERFECT Suite
 =============================================================================
 
-* URLs:
+**Home**:
   - https://hpc.pnnl.gov/PERFECT/
   - https://gitlab.pnnl.gov/perf-lab-hub/perfect
 
 
-The PERFECT Suite is comprised of kernels and applications
+**About**: The PERFECT Suite is comprised of kernels and applications
 representing domains of interest in radar and image processing. The
 suite was formed through a survey of applications used by all teams as
 well as consultations with numerous application domain experts. Each
@@ -23,12 +23,12 @@ Laboratory (PNNL) and Georgia Tech Research Institute (GTRI) with
 support from the DARPA PERFECT program.
 
 
-* Contacts: _firstname_._lastname_@pnnl.gov
+**Contacts**: (_firstname_._lastname_@pnnl.gov)
   - Joseph Manzano
   - Nathan R. Tallent
 
 
-* Contributors (alphabetical):
+**Contributors**: (alphabetical)
   - Kevin Barker (PNNL)
   - Thomas Benson (GTRI)
   - Dan Campbell (GTRI)
