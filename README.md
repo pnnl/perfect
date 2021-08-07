@@ -8,8 +8,11 @@ PERFECT Suite
 
 **Home**:
   - https://hpc.pnnl.gov/PERFECT/
-  - https://gitlab.pnnl.gov/perf-lab-hub/perfect
+  - https://gitlab.pnnl.gov/perf-lab/perfect
 
+**Abstract**: Kernels and applications for evaluating
+performance-power-architecture tradeoffs in radar and image
+processing.
 
 **About**: The PERFECT Suite is comprised of kernels and applications
 representing domains of interest in radar and image processing. The
@@ -21,7 +24,8 @@ is algorithmically interesting.
 
 The Suite has been jointly developed by Pacific Northwest National
 Laboratory (PNNL) and Georgia Tech Research Institute (GTRI) with
-support from the DARPA PERFECT program.
+support from the DARPA PERFECT (Power Efficiency Revolution for
+Embedded Computing) program.
 
 
 **Citation**:
@@ -54,7 +58,7 @@ Details
 =============================================================================
 
 **Manual**:
-  - doc/PERFECT-Suite-manual.pdf (https://gitlab.pnnl.gov/perf-lab-hub/perfect/perfect-suite/-/blob/master/doc/PERFECT-Suite-manual.pdf)
+  - doc/PERFECT-Suite-manual.pdf (https://gitlab.pnnl.gov/perf-lab/perfect/perfect-suite/-/blob/master/doc/PERFECT-Suite-manual.pdf)
   - See above for citation.
 
 
