@@ -112,13 +112,12 @@ To clean them:
 
 To generate them:
   ```sh
-   find . \( -name "*.bin" -o -name "*.m" \) -size +100M  -exec split -b 99MiB  '{}' '{}'.split- \;
+  find . \( -name "*.bin" -o -name "*.m" \) -size +100M  -exec split -b 99MiB  '{}' '{}'.split- \;
   ```
 
 
 Using
 =============================================================================
-
 
 The make system is based on GNU make.  Type "make help" to see a list of
 supported targets.
