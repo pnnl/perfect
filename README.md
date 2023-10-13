@@ -1,7 +1,6 @@
--*-Mode: markdown;-*-
+<!-- -*-Mode: markdown;-*- -->
 
-$Id$
-
+<!-- $Id$ -->
 
 PERFECT Suite
 =============================================================================
@@ -94,6 +93,15 @@ select cases there are CUDA variants.
 
 Using
 =============================================================================
+
+*Note*: For migration to GitHub, the sample input/output files over 100 MB have been split. To recover them do the following:
+  ```sh
+  for fnm_first in $(find . -name "*.split-aa") ; do
+    fnm_base=${fnm_first%.split-aa}
+    echo "*** Building ${fnm_base}"
+    cat ${fnm_base}.split-* > ${fnm_base}
+  done
+  ```
 
 The make system is based on GNU make.  Type "make help" to see a list of
 supported targets.
