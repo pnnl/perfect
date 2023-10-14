@@ -6,7 +6,7 @@ PERFECT Suite
 
 **Home**:
   - https://hpc.pnnl.gov/PERFECT/
-  - https://gitlab.pnnl.gov/perf-lab/perfect
+  - https://github.com/pnnl/perfect
 
 **Abstract**: Kernels and applications for evaluating
 performance-power-architecture tradeoffs in radar and image
