@@ -6,11 +6,12 @@ $Id$
 =============================================================================
 =============================================================================
 
-PERFECT Benchmark Suite
+                       PERFECT Benchmark Suite
+                       github.com/pnnl/perfect
 
-Copyright ((c)) 2014, Battelle Memorial Institute
-Copyright ((c)) 2014, Georgia Tech Research Corporation
-All rights reserved.
+          Copyright ((c)) 2014, Battelle Memorial Institute
+       Copyright ((c)) 2014, Georgia Tech Research Corporation
+                         All rights reserved.
 
 1. Battelle Memorial Institute (hereinafter Battelle) and Georgia Tech
    Research Corporation (GTRC) hereby grant permission to any person
