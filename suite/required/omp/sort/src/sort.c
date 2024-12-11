@@ -72,7 +72,7 @@
 
 #include "sort.h"
 #include "xmem/xmalloc.h"
-include "omp.h"
+#include "omp.h"
 
 
 int
