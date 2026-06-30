@@ -25,6 +25,10 @@ Laboratory (PNNL) and Georgia Tech Research Institute (GTRI) with
 support from the DARPA PERFECT (Power Efficiency Revolution for
 Embedded Computing) program.
 
+**Security Note**: This repository has been archived and is not actively
+maintained. The code is provided for historical reference and may
+contain unpatched or unknown vulnerabilities. It should not be used in
+production systems.
 
 **Citation**:
   > Kevin Barker, Thomas Benson, Dan Campbell, David Ediger, Roberto Gioiosa, Adolfy Hoisie, Darren Kerbyson, Joseph Manzano, Andres Marquez, Leon Song, Nathan R. Tallent, and Antonino Tumeo.  "PERFECT (Power Efficiency Revolution For Embedded Computing Technologies) Benchmark Suite Manual." Pacific Northwest National Laboratory and Georgia Tech Research Institute, December 2013. https://hpc.pnnl.gov/PERFECT/
